@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .countdown-container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .countdown {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-box {
+    background: linear-gradient(135deg, #6c5ce7, #0984e3);
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 5px; /* Adjusted margin */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: pulse 1s infinite alternate;
+  }
+  
+  .countdown-unit {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .countdown-label {
+    font-size: 14px;
+  }
+  
+  /* Additional Styles for Aesthetic Enhancement */
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+  
+  .countdown-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  /* Add space between numbers */
+  .countdown-unit span {
+    margin-right: 5px;
+  }
+  
